@@ -23,6 +23,16 @@ adr/ADR-031-technology-stack.md
 
 在 ADR-031 确认前，不开始正式业务代码开发。
 
+## 宪章约束
+
+执行任务前必须首先读取并遵守：
+
+```text
+AI_DEVELOPMENT_CHARTER.md
+```
+
+未经项目所有者明确授权，不得扩大修改范围、安装依赖、初始化业务代码、连接真实数据库或外部系统。
+
 ## 后续顺序
 
 1. 执行全量需求审计。
@@ -36,6 +46,7 @@ adr/ADR-031-technology-stack.md
 
 ## 必读文档
 
+- `AI_DEVELOPMENT_CHARTER.md`
 - `docs/requirements/OMS_DETAILED_REQUIREMENTS.md`
 - `docs/superpowers/plans/2026-07-14-oms-master-development-plan.md`
 - `CODEX_WORKFLOW.md`
@@ -45,4 +56,14 @@ adr/ADR-031-technology-stack.md
 
 ## Codex 首个任务提示
 
-只执行开发总计划中的 Task 0.1：技术栈评估和 ADR-031。不要创建业务代码，不要初始化后端或前端，不要引入依赖。完成后提交技术评估、ADR、状态文件更新和下一任务。
+只执行开发总计划中的 Task 0.1：技术栈评估和 ADR-031。
+
+要求：
+
+1. 首先读取 `AI_DEVELOPMENT_CHARTER.md`。
+2. 不创建业务代码。
+3. 不初始化后端或前端。
+4. 不安装依赖。
+5. 不连接数据库或真实 ERP/WMS。
+6. 只修改本任务明确允许的技术评估、ADR、状态和下一任务文件。
+7. 完成后提交技术评估、ADR、状态文件更新、测试或验证证据、风险、回滚点和唯一下一任务。
