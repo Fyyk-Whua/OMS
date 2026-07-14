@@ -21,11 +21,14 @@
 
 1. [CURRENT_STATUS.md](CURRENT_STATUS.md)
 2. [NEXT_TASK.md](NEXT_TASK.md)
-3. [需求索引](requirements/README.md)
-4. [架构决策索引](adr/README.md)
-5. [库存中心设计](module-design/inventory/README.md)
-6. [会话决策记录](conversation/2026-07-12-requirements-session.md)
-7. [需求追踪矩阵](traceability/REQUIREMENT_TRACEABILITY.md)
+3. [OMS 详细需求规格说明书](docs/requirements/OMS_DETAILED_REQUIREMENTS.md)
+4. [OMS 总体开发计划](docs/superpowers/plans/2026-07-14-oms-master-development-plan.md)
+5. [Codex + GitHub 协作规范](CODEX_WORKFLOW.md)
+6. [需求索引](requirements/README.md)
+7. [架构决策索引](adr/README.md)
+8. [库存中心设计](module-design/inventory/README.md)
+9. [会话决策记录](conversation/2026-07-12-requirements-session.md)
+10. [需求追踪矩阵](traceability/REQUIREMENT_TRACEABILITY.md)
 
 ## 协作原则
 
