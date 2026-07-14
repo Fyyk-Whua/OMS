@@ -19,19 +19,21 @@
 
 ## 文档入口
 
-1. [CURRENT_STATUS.md](CURRENT_STATUS.md)
-2. [NEXT_TASK.md](NEXT_TASK.md)
-3. [OMS 详细需求规格说明书](docs/requirements/OMS_DETAILED_REQUIREMENTS.md)
-4. [OMS 总体开发计划](docs/superpowers/plans/2026-07-14-oms-master-development-plan.md)
-5. [Codex + GitHub 协作规范](CODEX_WORKFLOW.md)
-6. [需求索引](requirements/README.md)
-7. [架构决策索引](adr/README.md)
-8. [库存中心设计](module-design/inventory/README.md)
-9. [会话决策记录](conversation/2026-07-12-requirements-session.md)
-10. [需求追踪矩阵](traceability/REQUIREMENT_TRACEABILITY.md)
+1. [AI 开发宪章](AI_DEVELOPMENT_CHARTER.md)
+2. [CURRENT_STATUS.md](CURRENT_STATUS.md)
+3. [NEXT_TASK.md](NEXT_TASK.md)
+4. [OMS 详细需求规格说明书](docs/requirements/OMS_DETAILED_REQUIREMENTS.md)
+5. [OMS 总体开发计划](docs/superpowers/plans/2026-07-14-oms-master-development-plan.md)
+6. [Codex + GitHub 协作规范](CODEX_WORKFLOW.md)
+7. [需求索引](requirements/README.md)
+8. [架构决策索引](adr/README.md)
+9. [库存中心设计](module-design/inventory/README.md)
+10. [会话决策记录](conversation/2026-07-12-requirements-session.md)
+11. [需求追踪矩阵](traceability/REQUIREMENT_TRACEABILITY.md)
 
 ## 协作原则
 
+- `AI_DEVELOPMENT_CHARTER.md` 是 AI 与人工协作的最高级项目约束之一。
 - GitHub 是项目事实来源。
 - 每次只推进一个明确的小任务。
 - 已确认需求不得遗漏。
